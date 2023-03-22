@@ -1,0 +1,92 @@
+body{
+    background-color: #fafafa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    color: #151515;
+    text-decoration: none;
+    font-weight: 600;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    margin:0 10px;
+    padding:3px 20px;
+    align-items: center;
+}
+.logo{
+    margin-top: 10px;
+}
+.navA{
+    font-size: large;
+    margin:0 0 0 20px;
+    padding: 10px;
+    color: #b5b5b5;
+}
+.navA:hover{
+    color: #151515;
+}
+.buttons{
+position: absolute;
+right: 30px;
+}
+.button{
+    color: #151515;
+    background-color: #fafafa;
+    border: none;
+    padding: 10px;
+    font-size: large;}
+#register{
+    border: #151515 2px solid;
+    border-radius: 10px;
+
+}
+.container{
+    padding:2% 5%;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    margin: auto 5%;
+    /* padding: 5%; */
+}
+h1{
+    font-size: 450%;
+    color: #151515;
+}
+.text p{
+    padding: 2%;
+    font-size: large;
+    text-align: justify;
+    font-weight: 600;
+    color: #666666;
+
+}
+.learn{
+    background-color: #151515;
+    color: #fafafa;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px 10px;
+    font-size: large;
+}
+.learn:hover{
+    cursor: pointer;
+    color: #151515;
+    background-color: #fafafa;
+}
+.client{
+    align-self:auto;
+    text-align:center
+}
+.clientImg{
+    padding: 0 10px;
+}
+.right{
+    padding: 5%;
+}
+.hero{
+    width: 100%;
+}
